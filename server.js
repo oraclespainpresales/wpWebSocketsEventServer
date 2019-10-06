@@ -30,8 +30,8 @@ var restapp       = express()
 log.stream = process.stdout;
 log.timestamp = true;
 
-//const SSLPATH = '/u01/ssl';
-const SSLPATH = '/Users/ccasares/Documents/Oracle/Presales/Initiatives/Wedo/setup/wedoteam.io.certificate';
+const SSLPATH = '/u01/ssl';
+//const SSLPATH = '/Users/ccasares/Documents/Oracle/Presales/Initiatives/Wedo/setup/wedoteam.io.certificate';
 
 const optionsSSL = {
   cert: fs.readFileSync(SSLPATH + "/certificate.fullchain.crt").toString(),
