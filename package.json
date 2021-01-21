@@ -28,6 +28,6 @@
     "lodash": "^4.17.15",
     "npmlog-ts": "0.0.1",
     "restify": "^4.3.4",
-    "socket.io": "^1.7.2"
+    "socket.io": "^2.4.0"
   }
 }
